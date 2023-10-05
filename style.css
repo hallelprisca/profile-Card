@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #19A1AE;
+    height: 100px;
+    position: fixed;
+}
+.main-container {
+    background-color: white;
+    width: 400px;
+    position: absolute;
+    left: 29em;
+    height: 479px;
+    top: 5rem;
+    z-index: 1;
+    box-shadow: 800px;
+    border-radius: 30px;
+    box-shadow: black;
+}
+
+.ball, .b {
+    /* z-index: 0;
+    background-color: red; */
+    position: absolute;
+    height: 500px;
+    width: 800px;
+    top: -8rem;
+    left: -5rem;
+    /* top: -5rem;
+    right: 20rem;
+    margin-bottom: 3rem; */
+}
+
+.ball2, .b2 {
+    position: absolute;
+    height: 500px;
+    width: 800px;
+    left: 22rem;
+    bottom: -24.7rem;
+    /* top: 15rem;
+    bottom: 5rem;
+    left: 15rem; */
+
+}
+
+.container1, .card {
+    position: relative;
+    /* left: .1px; */
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 100%;
+    top: .11px;
+}
+
+.container2, .vic-container {
+    /* background-color: red; */
+    text-align: center;
+    color: #6B7082;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+span {
+    color: black;
+}
+ .vic {
+    background-color: white;
+    border-radius: 500%;
+    position: relative;
+    width: 27%;
+    height: 106px;
+    top: -3rem;
+    left: 9rem;
+}
+
+.vic2 {
+    margin: .3rem auto;
+    border-radius: 3rem;
+}
+
+.text {
+    position: relative;
+    top: -1.5rem;
+    line-height: 2rem;
+}
+
+.container3 {
+    /* background-color: red; */
+    height: 200px;
+   border-width: 300px;
+   /* border-color: black; */
+}
+.line {
+    width: 400px;
+    height: .1px;
+    background-color: #6B7082;
+}
+.sub-con3 {
+    /* background-color: yellow; */
+    padding: 5%;
+    border-radius: 200px;
+    border-width: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 2rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.value {
+    color: #2E3349;
+text-align: center;
+font-family: Kumbh Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+name {
+    color: #6B7082;
+text-align: center;
+font-family: Kumbh Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.5px;
+}
+
